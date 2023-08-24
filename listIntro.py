@@ -57,3 +57,30 @@ listLength=findLength(l1)
 list2Length=len(l2)
 # print(list2Length) //4
 
+#find out largest num/str from a list by max() method
+'''
+max(iterable, key, default)
+max() method e iterable hisabe list/str/dictionary deya zay. Key zodi deya na thake 
+tahole str value er kkhetre max() method ASCII value onuzayi largest return kore.
+max() method er iterable zodi empty hoy tahole default message deya zay.
+'''
+list4=['MSA','msa','PVS','Muhammad SA']
+largest=max(list4)
+# print(largest) // msa zodi key hiabe len define kora na theke
+largestStr=max(list4,key=len)
+# print(largestStr) // Muhammad SA zodi key te len define kora thake
+
+#find out largest num/str from a list by min() method
+'''
+min(iterable, key, default)
+min() method e iterable hisabe list/str/dictionary deya zay. Key zodi deya na thake 
+tahole str value er kkhetre min() method ASCII value onuzayi largest return kore.
+min() method er iterable zodi empty hoy tahole default message deya zay.
+'''
+list4=['MSA','msa','PVS',]
+smallest=min(list4)
+# print(smallest) # MSA zodi key hiabe len define kora na theke
+smallestName=min(list4,key=len)
+# print(smallestName) # MSA zodi key te len define kora thake
+
+# append() method: pushing a single item in a list
