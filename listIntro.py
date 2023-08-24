@@ -133,4 +133,12 @@ if 'Fakhar' in players:
     players.remove('Fakhar')
 # print(players) # ['Azhar', 'Abdullah', 'Babar', 'Rizwan'] "Fakhar" not in players
 
-
+'''
+listName.clear(): kuno list er sob item giluke clear kore dey and empty list return kore.
+listName.remove('itemName'): list theke argument item ke remove kore and none return kore
+del listName: computer memmory theke puru list ke delete kore dey, pore access kora zay na
+del listName(index): kuno list theke index item ke delete kore dey. modify list return 
+kore
+listName.pop(index): list theke index er item ke delete kore dey. listName.pop() er 
+default value hocce -1 and listName.pop(index) delete kora value ke return kore.  
+'''
