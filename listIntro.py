@@ -41,7 +41,19 @@ if/elif/else condition use kora zay
 2. not in
 '''
 if 'name' in l2:
-    print('Yes')
+    pass
+    # print('Yes') //True
 else:
-    print('No')
+    pass
+    # print('No')
+
+def findLength(anyList):
+    count=0
+    for item in anyList:
+        count+=1
+    return count
+listLength=findLength(l1)
+# print(listLength) //6
+list2Length=len(l2)
+# print(list2Length) //4
 
