@@ -120,5 +120,11 @@ num2=[5,9,7,3,2,]
 
 # built-in extend method
 num1.extend(num2)
-print(num1)
+# print(num1) # [1, 4, 6, 8, 5, 9, 7, 3, 2]
+
+# insert(index, element) method: kuno liste er nirdisto index e item/elememnt add korar
+# jonno insert(index, elem) method use kora hoy.
+players=['Fakhar','Azhar','Babar','Rizwan']
+players.insert(2,'Abdullah')
+# print(players) #['Fakhar', 'Azhar', 'Abdullah', 'Babar', 'Rizwan']
 
