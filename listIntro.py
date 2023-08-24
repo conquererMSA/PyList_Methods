@@ -88,6 +88,22 @@ names=['pvs','msa','mhd']
 names.append('muha')
 # print(names) #['pvs', 'msa', 'mhd', 'muha']
 # tobe loop caliye amra ekadik item list e append() method er maddhyme push korte pare
-for i in list(range(3)):
-    names.append(input('Enter player name: '))
+# for i in list(range(3)):
+#     names.append(input('Enter player name: '))
 #print(names) # ['pvs', 'msa', 'mhd', 'muha', 'ashik', 'tarek', 'muka']
+
+# manual find out min and max value from a list
+nums=[55,6,368,226,79,440,76,]
+# max process
+myMax=0
+for num in nums:
+    if num>myMax:
+        myMax=num
+# print(myMax) #440
+
+#min process
+myMin=nums[0]
+for num in nums:
+    if num<myMin:
+        myMin=num
+# print(myMin) #6
