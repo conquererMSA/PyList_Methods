@@ -27,8 +27,21 @@ l3=l1+l2
 # print(l3) # [34, 55, 75, 43, True, 'name', 'MSA', 'Pvs', 45.68, 'name']
 
 #multiplication of a list
-triple1=l1*3 #[34, 55, 75, 43, True, 'Tsy', 34, 55, 75, 43, True, 'Tsy', 34, 55, 75, 43, True, 'Tsy']
+triple1=l1*3 # [34, 55, 75, 43, True, 'Tsy', 34, 55, 75, 43, True, 'Tsy', 34, 55, 75,
+# 43, True, 'Tsy']
 #ekahne l1 list er value gulu ekti notun list er moddhye tin bar kore takbe..
 # print(triple1)
 
-#
+# Membership operator
+'''
+membership operator return boolean value True/False
+membership operator check kore list er moddhye kuno item ache kina 
+if/elif/else condition use kora zay
+1. in 
+2. not in
+'''
+if 'name' in l2:
+    print('Yes')
+else:
+    print('No')
+
