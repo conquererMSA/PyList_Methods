@@ -84,3 +84,10 @@ smallestName=min(list4,key=len)
 # print(smallestName) # MSA zodi key te len define kora thake
 
 # append() method: pushing a single item in a list
+names=['pvs','msa','mhd']
+names.append('muha')
+# print(names) #['pvs', 'msa', 'mhd', 'muha']
+# tobe loop caliye amra ekadik item list e append() method er maddhyme push korte pare
+for i in list(range(3)):
+    names.append(input('Enter player name: '))
+#print(names) # ['pvs', 'msa', 'mhd', 'muha', 'ashik', 'tarek', 'muka']
