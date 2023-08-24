@@ -19,9 +19,16 @@ list er protity item er jonno duiti index ache:
 and list er multiple item access korar jonno slicing use kora hoy.
 '''
 #concatenation of two list
-l1=[34,55,75,43,True, 'name']
+l1=[34,55,75,43,True, 'Tsy']
 l2=['MSA','Pvs',45.68,"name"]
 l3=l1+l2
-print(id(l3)) #2251807580928
-print(id(l1))
-print(l3) # [34, 55, 75, 43, True, 'name', 'MSA', 'Pvs', 45.68, 'name']
+# print(id(l3)) #2251807580928
+# print(id(l1))
+# print(l3) # [34, 55, 75, 43, True, 'name', 'MSA', 'Pvs', 45.68, 'name']
+
+#multiplication of a list
+triple1=l1*3 #[34, 55, 75, 43, True, 'Tsy', 34, 55, 75, 43, True, 'Tsy', 34, 55, 75, 43, True, 'Tsy']
+#ekahne l1 list er value gulu ekti notun list er moddhye tin bar kore takbe..
+# print(triple1)
+
+#
