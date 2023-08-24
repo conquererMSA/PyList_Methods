@@ -96,14 +96,29 @@ names.append('muha')
 nums=[55,6,368,226,79,440,76,]
 # max process
 myMax=0
-for num in nums:
-    if num>myMax:
-        myMax=num
+# for num in nums:
+#     if num>myMax:
+#         myMax=num
 # print(myMax) #440
 
 #min process
 myMin=nums[0]
-for num in nums:
-    if num<myMin:
-        myMin=num
+# for num in nums:
+#     if num<myMin:
+#         myMin=num
 # print(myMin) #6
+
+# extend() method er maddhyome ekti iterable er item/element ek sathe arekti iterable er
+# vitor push kora zay
+
+num1=[1,4,6,8,]
+num2=[5,9,7,3,2,]
+# loop process
+# for num in num2:
+#     num1.append(num)
+# print(num1) # [1, 4, 6, 8, 5, 9, 7, 3, 2]
+
+# built-in extend method
+num1.extend(num2)
+print(num1)
+
