@@ -126,5 +126,11 @@ num1.extend(num2)
 # jonno insert(index, elem) method use kora hoy.
 players=['Fakhar','Azhar','Babar','Rizwan']
 players.insert(2,'Abdullah')
-# print(players) #['Fakhar', 'Azhar', 'Abdullah', 'Babar', 'Rizwan']
+# print(players) # ['Fakhar', 'Azhar', 'Abdullah', 'Babar', 'Rizwan']
+
+# remove an element from a list by remove('itemName') method
+if 'Fakhar' in players:
+    players.remove('Fakhar')
+# print(players) # ['Azhar', 'Abdullah', 'Babar', 'Rizwan'] "Fakhar" not in players
+
 
